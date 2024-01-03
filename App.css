@@ -1,0 +1,101 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between; 
+  margin-top: -45px;
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  
+}
+a:hover{
+  color: rgb(104, 201, 233);
+}
+#img{
+  height: 200px;
+  width: 100%;
+}
+.body{
+  background-color: black;
+}
+.div2{
+  color: lightblue;
+  font-size: 85px;
+  margin-top: -207px;
+}
+#sp{
+  margin-top: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 85px;
+}
+#a{
+  color: white;
+}
+.circle1{
+  margin-top: 200px;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-left: 60px;
+}
+#workshop{
+  display: flex;
+  margin-top: 200px;
+}
+#part1{
+  height: 700px;
+  width: 700px;
+  color: white;
+  font-size: 40px;
+  margin-left: 70px;
+}
+#alpha{
+  height: 50vh;
+  width: 100vh;
+  margin-top: -100px;
+}
+
+#workshop1{
+  display: flex;
+  margin-top: -300px;
+}
+
+#beta{
+  height: 50vh;
+  width: 50vh;
+  margin-top: -100px;
+}
+#button1{
+  height: 30px;
+  width: 200px;
+  background-color: aqua;
+  border-radius: 7px;
+  cursor: pointer;
+
+  position: relative;
+  animation-name: button;
+  animation-iteration-count: 7;
+  animation-duration: 2s;
+
+  
+}
+
+
+
+
+ #button1:hover{
+  
+      height: 30px;
+      width: 300px;
+} 
